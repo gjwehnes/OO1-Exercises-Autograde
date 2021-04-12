@@ -35,5 +35,21 @@ You are creating a Stock class.
 		Market Cap: $538000000000
 */
 public class Stock {
+
+	public Object tickerSymbol;
+	public Object companyName;
+	public int price;
+	public Integer totalShares;
+	public int percentChange;
+	public int marketCap;
+
+	public Stock(String string, String string2, int i, int j) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public void adjustPrice(int i) {
+		// TODO Auto-generated method stub
+		
+	}
 	
 }
