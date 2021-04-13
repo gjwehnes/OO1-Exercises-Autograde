@@ -9,7 +9,5 @@ package ex002;
 // Parameters: none
 
 public class Main {
-	public static boolean beTrue() {
-		return true;
-	}
+
 }

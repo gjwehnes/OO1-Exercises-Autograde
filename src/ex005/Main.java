@@ -8,8 +8,4 @@ package ex005;
 // Access should be public
 
 public class Main {
-	boolean active = true;
-	String name = "Nemo";
-	int grade = 11;
-	
 }

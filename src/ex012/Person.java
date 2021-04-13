@@ -35,59 +35,5 @@ a programming error (or a user typo) before it becomes a problem.
 
 */
 public class Person {
-	private String firstName;
-	private String lastName;
-	private int birthMonth;
-	private int birthDay;
-	private int birthYear;
-	
-	//Set's initial "person"
-	public Person(String firstName, String lastName, int birthMonth, int birthDay, int birthYear) {
-		this.firstName = firstName;
-		this.lastName = lastName;
-		this.birthDay = birthDay;
-		this.birthMonth = birthMonth;
-		this.birthYear = birthYear;
-
-	}
-	//Setters
-	public void setFirstName(String firstName) {
-		this.firstName = firstName;
-	}
-	public void setLastName(String lastName) {
-		this.lastName = lastName;
-	}
-	public void setBirthDay(int birthDay) {
-		if (birthDay <= 31 && birthDay >= 1) {
-			this.birthDay = birthDay;
-		}	
-	}
-	public void setBirthMonth(int birthMonth) {
-		if (birthMonth <= 12 && birthMonth >= 1) {
-			this.birthMonth = birthMonth;
-		}	
-	}
-	public void setBirthYear(int birthYear) {
-		this.birthYear = birthYear;
-	}
-	//Getters
-	public String getFirstName() {
-		return firstName;
-	}
-	public String getLastName() {
-		return lastName;
-	}
-	public Object getBirthday() {
-		return birthMonth + "/" + birthDay + "/" + birthYear;
-	}
-	
-	
 	
 }
-
-
-
-
-
-
-

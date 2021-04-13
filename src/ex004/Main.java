@@ -11,7 +11,5 @@ package ex004;
 //        An integer called "y"
 //
 public class Main {
-	public int addTwo(int x, int y) {
-		return x + y;
-	}
+
 }

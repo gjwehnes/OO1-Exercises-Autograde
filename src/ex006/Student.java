@@ -14,24 +14,9 @@ package ex006;
 class Student {
 
     //create the instance variables here
-    private String lastName;
-    private String firstName;
-    private int id;
-    //create the constructor here
-    public Student(String lastName, String firstName, int id) {
-    	this.lastName = lastName;
-    	this.firstName = firstName;
-    	this.id = id;
-    }
-    //create the accessors here
-    public String getLastName() {
-    	return this.lastName;
-    }
-    public String getFirstName() {
-    	return this.firstName;
-    }
-    public int getID() {
-    	return this.id;
-    }
     
+    //create the constructor here
+    
+    //create the accessors here
+
 }

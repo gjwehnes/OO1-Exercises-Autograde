@@ -39,16 +39,5 @@ class Bicycle {
     }
 
     //add the mutators here
-    public void setForwardGear(int forwardGear) {
-    	this.forwardGear = forwardGear;
-    }
-    public void setRearGear(int rearGear) {
-    	this.rearGear = rearGear;
-    }
-    public void setForwardBrake(boolean forwardBrake) {
-    	this.forwardBrake = forwardBrake;
-    }
-    public void setRearBrake(boolean rearBrake) {
-    	this.rearBrake = rearBrake;
-    }
+
 }

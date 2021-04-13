@@ -20,29 +20,6 @@ Methods
 */
 
 public class InchWorm {
-	private int position;
-	private int direction;
-	//Constructor
-	public InchWorm() {
-		this.position = 0;
-		this.direction = 1;
-	}
-	public InchWorm(int position) {
-		this.position = position;
-		this.direction = 1;
-	}
-	//Sets direction to negative of current value
-	public void turn() {
-		this.direction *= -1;
-	}
-	//Adds direction to position
-	public void move() {
-		this.position += direction;
-	}
-	//Returns current position
-	public Object getPosition() {
-		return this.position;
-	}
 	
 }
 

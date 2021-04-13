@@ -11,25 +11,20 @@ package ex011;
  */
 
 public class StringFormatter {
-  
-  public static String formatCoordinate(int x, int y) {
-	  return "(" + x + "," + y + ")";
-  }
-  
-  public static String formatDollarAmount(double a) {
-	  return "$ " + String.format("%.2f", a);
-  }
-  
-  public static String formatProperties(String a, boolean x, boolean y) {
-	  return "Class: " + a + "; accessible: " + x + "; mutable: " + y;
-  }
-  
-  public static String formatTableRow(String b, double x, long y, int z) {
-	  String outputB = String.format("%-21s", b);
-	  String outputX = String.format("%9s", String.format("%.2f", x));
-	  String outputY = String.format("%08d", y);
-	  String outputZ = String.format("%-6d", z);
-			  
-	  return "| " + outputB + "|" + outputX + " | " + outputY + " | " + outputZ + "|";
-  }
+
+	public static String formatCoordinate(int x, int y) {
+		return "";
+	}
+
+	public static String formatDollarAmount(double a) {
+		return "";
+	}
+
+	public static String formatProperties(String a, boolean x, boolean y) {
+		return "";
+	}
+
+	public static String formatTableRow(String b, double x, long y, int z) {
+		return "";
+	}
 }

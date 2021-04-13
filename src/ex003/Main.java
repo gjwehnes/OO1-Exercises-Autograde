@@ -10,7 +10,5 @@ package ex003;
 //     a String named "name"
 
 public class Main {
-	public static String makeCapital(String name) {
-		return name.toUpperCase();
-	}
+	
 }
