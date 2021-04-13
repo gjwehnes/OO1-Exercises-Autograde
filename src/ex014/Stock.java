@@ -35,21 +35,41 @@ You are creating a Stock class.
 		Market Cap: $538000000000
 */
 public class Stock {
-
-	public Object tickerSymbol;
-	public Object companyName;
-	public int price;
-	public Integer totalShares;
-	public int percentChange;
-	public int marketCap;
-
-	public Stock(String string, String string2, int i, int j) {
-		// TODO Auto-generated constructor stub
-	}
-
-	public void adjustPrice(int i) {
-		// TODO Auto-generated method stub
-		
-	}
+	String tickerSymbol;
+	String companyName;
+	int price;
+	double percentChange;
+	int totalShares;
+	long marketCap;
+	String percentString;
 	
+	public Stock(String tickerSymbol, String companyName, int price, int totalShares) {
+		this.tickerSymbol = tickerSymbol.toUpperCase();
+		this.companyName = companyName;
+		this.price = price;
+		this.totalShares = totalShares;
+		this.percentChange = 0;
+		this.marketCap = this.totalShares * this.price;
+
+	}
+
+	public void adjustPrice(int priceChange) {
+		this.percentChange = (double)priceChange / this.price * 100;
+		this.price += priceChange;
+		this.marketCap = this.price * this.totalShares;
+	}
+	public String toString() {
+		if (this.percentChange > 0) {
+			this.percentString = "+" + this.percentChange;
+		} else
+			this.percentString = "" + this.percentChange;
+		return "Ticker Symbol: " + this.tickerSymbol + "\n" + "Company: " + this.companyName + "\n" + "Current price: $" + this.price + " (" + this.percentString + "%)" + "\n" + "Market Cap: $" + this.marketCap + "\n" + " ";
+	}
+
 }
+
+
+
+
+
+
