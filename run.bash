@@ -1,5 +1,5 @@
-echo "compile ./src"
-javac -classpath .:/run_dir/junit-4.12.jar:/run_dir/hamcrest-core-1.3.jar:/run_dir/json-simple-1.1.1.jar:./jars/*  src/*.java -d ./bin
+echo "compile exercises"
+javac -classpath .:/run_dir/junit-4.12.jar:/run_dir/hamcrest-core-1.3.jar:/run_dir/json-simple-1.1.1.jar:./jars/*  src/ex001/*.java  src/ex002/*.java src/ex003/*.java src/ex004/*.java src/ex005/*.java src/ex006/*.java src/ex007/*.java src/ex008/*.java src/ex009/*.java src/ex010/*.java src/ex011/*.java src/ex012/*.java  src/ex013/*.java src/ex014/*.java -d ./bin
 
-echo "run Test5.java"
-java -jar "./jars/junit-platform-console-standalone-1.5.0.jar" --disable-banner --disable-ansi-colors --details-theme=ascii --details=tree -class-path ./bin -c TriangleClassifierTest
+echo "run exercises"
+java -jar "./jars/junit-platform-console-standalone-1.5.0.jar" --disable-banner --disable-ansi-colors --details-theme=ascii --details=tree -class-path ./bin:. -c ex001.MainTest -c ex002.MainTest -c ex003.MainTest -c ex004.MainTest -c ex005.MainTest -c ex006.StudentTest -c ex007.BicycleTest -c ex008.DogTest -c ex009.CarTest -c ex010.StoreProductTest -c ex011.StringFormatterTest -c ex012.PersonTest -c ex013.InchWormTest -c ex014.StockTest
