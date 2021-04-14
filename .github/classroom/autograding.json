@@ -1,14 +1,144 @@
 {
   "tests": [
     {
-      "name": "myTest",
+      "name": "test1",
       "setup": "",
-      "run": "gradle test",
+      "run": "gradle test --tests ex001.MainTest",
       "input": "",
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": 25
+      "points": 1
+    },
+    {
+      "name": "test2",
+      "setup": "",
+      "run": "gradle test --tests ex002.MainTest",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test3",
+      "setup": "",
+      "run": "gradle test --tests ex003.MainTest",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test4",
+      "setup": "",
+      "run": "gradle test --tests ex004.MainTest",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test5",
+      "setup": "",
+      "run": "gradle test --tests ex005.MainTest",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test6",
+      "setup": "",
+      "run": "gradle test --tests ex006.StudentTest",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test7",
+      "setup": "",
+      "run": "gradle test --tests ex007.BicycleTest",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test8",
+      "setup": "",
+      "run": "gradle test --tests ex008.DogTest",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test9",
+      "setup": "",
+      "run": "gradle test --tests ex009.CarTest",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test10",
+      "setup": "",
+      "run": "gradle test --tests ex010.StoreProductTest",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test11",
+      "setup": "",
+      "run": "gradle test --tests ex011.StringFormatterTest",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test12",
+      "setup": "",
+      "run": "gradle test --tests ex012.PersonTest",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test13",
+      "setup": "",
+      "run": "gradle test --tests ex013.InchWormTest",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test14",
+      "setup": "",
+      "run": "gradle test --tests ex014.StockTest",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
     }
   ]
 }
