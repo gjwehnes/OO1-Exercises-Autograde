@@ -10,20 +10,24 @@ public class MainTest {
 
 	@Test
 	public void test() {
-		Main a = new Main();
-		assertEquals(2,a.practiceOne());
-	}
+//		Main a = new Main();
+//		assertEquals(2,a.practiceOne());
 
-
-	@Test
-	public void testIfNonStatic() {
 		boolean methodFound = false;
+		boolean methodStatic = false;		
+		int parameterCount = 0;
+		
 		for (Method method : Main.class.getMethods()) {
 			if (method.getName().equals("practiceOne")){
 				methodFound = true;
-				assertEquals(false, Modifier.isStatic(method.getModifiers()));
+				methodStatic = Modifier.isStatic(method.getModifiers());
+				parameterCount = method.getParameterCount();
 			}
 		}
+		
 		assertEquals(true, methodFound);
+		assertEquals(false,methodStatic);
+		assertEquals(true, parameterCount);
+	
 	}
 }
