@@ -27,7 +27,7 @@ public class MainTest {
 		
 		assertEquals(true, methodFound);
 		assertEquals(false,methodStatic);
-		assertEquals(true, parameterCount);
+		assertEquals(0, parameterCount);
 	
 	}
 }
