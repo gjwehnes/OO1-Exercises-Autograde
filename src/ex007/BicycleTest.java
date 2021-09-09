@@ -22,10 +22,10 @@ public class BicycleTest {
 
 			//test rearGear
 			assertEquals(bicycle1.getRearGear(), 1);
-			bicycle1.setForwardGear(5);
-			assertEquals(bicycle1.getForwardGear(), 5);
-			bicycle1.setForwardGear(7);
-			assertEquals(bicycle1.getForwardGear(), 7);
+			bicycle1.setRearGear(5);
+			assertEquals(bicycle1.getRearGear(), 5);
+			bicycle1.setRearGear(7);
+			assertEquals(bicycle1.getRearGear(), 7);
 			
 			//test forwardBrake
 			assertEquals(bicycle1.getForwardBrake(), false);
