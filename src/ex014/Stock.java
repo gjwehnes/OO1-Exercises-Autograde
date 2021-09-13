@@ -6,7 +6,7 @@ You are creating a Stock class.
 1. Instance Variables
 	tickerSymbol (String)
 	companyName (String)
-	price (int)
+	price (double)
 	percentChange (double)
 	totalShares(int)
 	marketCap(long)
