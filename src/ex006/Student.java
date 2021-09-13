@@ -11,6 +11,11 @@ package ex006;
 //
 // 3. In the constructor, set the instance variables to the initial values that are passed in as parameters.
 
+// Note: You are allowing other objects to access the instance variable, but as opposed to the previous exercise, you are now adding an extra layer of protection by requiring
+// the use of an accessor. This is an example of encapsulation, aka data protection, which is one of the core concepts of Object Oriented Programming. If you do not want other
+// objects to have access to these values, then you simply don't provide an accessor.
+
+
 class Student {
 
     //create the instance variables here
