@@ -8,9 +8,10 @@ Members (a.k.a fields)
 	position
 	direction
 
-Constructor:
-	takes the initial position as a parameter of type int
-	sets the direction to 1
+Constructors:
+	-first constructor takes no arguments; the initial position should default to zero
+	-second constructor takes the initial position as a parameter of type int
+	-both constructors should default the direction to 1
 
 Methods
 	move(): moves the InchWorm one unit in the direction that it is currently facing.
