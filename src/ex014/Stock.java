@@ -4,36 +4,43 @@ package ex014;
 You are creating a Stock class.
 
 1. Instance Variables
-	tickerSymbol (String)
-	companyName (String)
-	price (double)
-	percentChange (double)
-	totalShares(int)
-	marketCap(long)
+	as required
 
 2. Constructors
-	Main constructor should take in only the following parameters:
-	tickerSymbol (and convert the string to uppercase)
-	companyName
-	price
-	totalShares
-	For the other instance variables,
-	percentChange should default to zero.
-	marketCap is calculated by multiplying totalShares by price
+	as per the unit test
 
 3. Class Methods: Write the following methods:
 
-	public void adjustPrice(int change)
+	getters and setters, as per the unit test
+
+	adjustPrice
 	This method will change the price by change (change can be positive or negative).  It should also recalculate percentChange and marketCap.  percentChange represents the percentage changed
+
+	getPercentChange
+	percentChange should default to zero, but after adjustPrice is called, this method should return the change as a percent
+	from the previous value. 
+
+	getMarketCap
+	marketCap is calculated by multiplying totalShares by price
+	
+	setShares
+	percentChange should default back to zero when shared are adjusted
+	this method will also affect marketCap
 	
 	public String toString()
-	This method should return a SINGLE String (using \n) that looks as follows:
-	
-		Ticker Symbol: GOOG
-		Company: Google, Inc.
-		Current Price: $802 (+7.2%)
-		Market Cap: $538000000000
+	This method should return a String contains information about the class, as per the unit test		
+		
+		
+		
 */
 public class Stock {
 	
+	String tickerSymbol;
+	String companyName;
+	double price;
+	double percentChange;
+	int totalShares;
+	
 }
+
+
