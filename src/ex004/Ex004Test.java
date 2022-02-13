@@ -2,19 +2,19 @@ package ex004;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
-import java.lang.reflect.Method;//EditDelete
-import java.lang.reflect.Modifier;//EditDelete
-import java.util.ArrayList;//EditDelete
-import java.util.List;//EditDelete
+import java.lang.reflect.Method;
+import java.lang.reflect.Modifier;
+import java.util.ArrayList;
+import java.util.List;
 
-public class MainTest {
+public class Ex004Test {
 
 	@Test
 	public void testAdd() {
-		// Failure message: 
-		// This test has no failure messages
 		Main a = new Main();
 		assertEquals(11,a.addTwo(5,6));
+		assertEquals(42,a.addTwo(32,10));
+		assertEquals(-5,a.addTwo(-10,5));
 	}
 	@Test
 	public void testIfNonStatic() {
