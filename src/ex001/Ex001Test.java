@@ -6,12 +6,10 @@ import org.junit.jupiter.api.Test;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 
-public class MainTest {
+public class Ex001Test {
 
 	@Test
 	public void test() {
-//		Main a = new Main();
-//		assertEquals(2,a.practiceOne());
 
 		boolean methodFound = false;
 		boolean methodStatic = false;		
