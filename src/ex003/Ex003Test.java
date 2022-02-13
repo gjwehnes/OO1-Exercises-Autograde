@@ -3,13 +3,12 @@ package ex003;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 
-public class MainTest {
+public class Ex003Test {
 
 	@Test
 	public void test() {
-	// Failure message: 
-	// This test has no failure messages
 	Main a = new Main();
-	assertEquals("TEST",a.makeCapital("test"));
+	assertEquals("CONVERT MIXED CASE",a.makeCapital("cOnVeRt MiXeD cAsE"));
+	assertEquals("TEST ANOTHER STRING",a.makeCapital("TEST another STRING"));
 	}
 }
